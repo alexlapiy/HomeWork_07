@@ -21,7 +21,7 @@ import otus.homework.customview.utils.RandomColorFromResources
 import otus.homework.customview.utils.translateBy
 import kotlin.math.*
 
-class PyChartView @JvmOverloads constructor(
+class PieChartView @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
     defStyleAttr: Int = 0

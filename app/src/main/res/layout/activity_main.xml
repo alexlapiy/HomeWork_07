@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         tools:context=".MainActivity">
 
-        <otus.homework.customview.pie_chart.PyChartView
+        <otus.homework.customview.pie_chart.PieChartView
             android:id="@+id/pieChartView"
             android:layout_width="350dp"
             android:layout_height="350dp"

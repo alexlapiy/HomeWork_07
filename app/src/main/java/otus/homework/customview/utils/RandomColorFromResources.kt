@@ -14,6 +14,9 @@ class RandomColorFromResources(
 
     val color: Int
         get() {
+            if (colors.size == 0) {
+                colors = ArrayDeque(resColors.shuffled())
+            }
             return colors.pop()
         }
 }

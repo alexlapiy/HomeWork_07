@@ -6,4 +6,8 @@
         <attr name="itemTextSize" format="dimension" />
         <attr name="textFontFamily" format="reference" />
     </declare-styleable>
+
+    <declare-styleable name="GraphView">
+        <attr name="text" format="dimension"/>
+    </declare-styleable>
 </resources>
